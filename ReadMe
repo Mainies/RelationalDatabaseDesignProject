@@ -13,5 +13,6 @@ For more in-depth project information, you can explore the following project com
 - **Database Design Format:** Refer to the detailed database design format in [models.pdf](models.pdf).
 - **Database Creation Script:** The script for creating the relational database can be found in [database.sql](database.sql).
 - **Queries and Results:** The SQL queries and their corresponding results are available in [queries.sql](queries.sql) and [queries.pdf](queries.pdf) respectively.
+- **Database Final Implementation:** The final database can be found in [Vaccinations.db](Vaccinations.db). This is for use in SQL Lite.
 
 This project showcases my skills in database design, data management, and data querying, along with proficiency in data visualization and analysis.
