@@ -1,29 +1,14 @@
-This git repository holds my final submission for the Relational
-Database Design Project.
+### Relational Database Design Project
 
-The task was to take the certain data files from:
+This repository holds my final submission for the Relational Database Design Project. The task involved taking data files from the OWID COVID-19 vaccination dataset and designing a relational database. Key details:
 
-https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations
+- Database files from: [OWID COVID-19 Vaccination Dataset](https://github.com/owid/covid-19-data/tree/master/public/data/vaccinations)
+- Database files used: locations.csv, us_state_vaccinations.csv, vaccinations-by-age-group.csv, vaccinations-by-manufacturer.csv, vaccinations.csv, country_data/Australia.csv, country_data/Germany.csv, country_data/England.csv, country_data/France.csv
+- Data cleaning involved using tools such as Microsoft Excel Queries for pivoting and splitting.
+- The relational database was created in SQLite and populated with the data.
+- Five queries (including some abstract ones) were completed using this database, and data visualizations were created in Excel to meet assessment guidelines.
 
-The database files were:
--locations.csv
--us_state_vaccinations.csv
--vaccinations-by-age-group.csv
--vaccinations-by-manufactuer.csv
--vaccinations.csv
--country_data/Australia.csv
--country_data/Germany.csv
--country_data/England.csv
--country_date/France.csv
-
-The data from these files had to be designed into a relational database.
-This database was then created in SQLite and populated using the above data.
-To clean the data I used a range of tools in Microsoft Excel Queries such as
-pivoting and splitting to be able to import into SQLlite.
-
-We were then required to complete 5 (in some cases abstract) queries using this
-database and create a data visualisation in Excel.
-
-The database design format can be found in models.pdf, the queries to
-create the database is in database.sql and the code to answer the queries
-requirements is in queries.sql with the results in queries.pdf.
+Find project details:
+- Database design format: models.pdf
+- Database creation script: database.sql
+- Queries and results: queries.sql and queries.pdf
